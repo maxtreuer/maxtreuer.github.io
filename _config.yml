@@ -1,11 +1,21 @@
 title: Stackbit Exto Theme
 baseurl: /
-permalink: '/:title/'
+permalink: "/:title/"
+source: /
+safe: true
+lsi: false
+incremental: false
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+gist:
+  noscript: false
 plugins:
   - jekyll-menus
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: "/posts/:title/"
 sass:
   indentWidth: 4
   style: nested
